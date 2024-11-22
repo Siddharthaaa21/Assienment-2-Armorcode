@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'httpshttps://github.com/Siddharthaaa21/Assienment-2-Armorcode.git'
+                git branch: 'master', url: 'https://github.com/Siddharthaaa21/Assienment-2-Armorcode.git'
             }
         }
 
