@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "Siddharthaaa21/lisp:latest
+        DOCKER_IMAGE = "Siddharthaaa21/lisp:latest"
 I"
         DOCKER_TAG = "latest"
     }
@@ -10,7 +10,7 @@ I"
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/Siddharthaaa21/Assienment-2-Armorcode.git'
+                git branch: 'master', url: 'httpshttps://github.com/Siddharthaaa21/Assienment-2-Armorcode.git'
             }
         }
 
