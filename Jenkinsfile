@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "Siddharthaaa21/lisp:latest"
+        DOCKER_IMAGE = "siddharthaaa21/lisp:latest"
 I"
         DOCKER_TAG = "latest"
     }
