@@ -1,1 +1,2 @@
-print("Hello, World!")
+ArmorCode 
+This is a simple project that demonstrates the use of the ArmorCode API. The project is a simple web application that allows users to upload a file and scan it for malware. The project uses the ArmorCode API to scan the file and display the results to the user.
