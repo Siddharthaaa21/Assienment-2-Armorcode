@@ -1,11 +1,10 @@
 FROM ubuntu:20.04
 
-RUN apt update && apt install -y sbcl
+RUN apt update 
 
-WORKDIR /usr/src
+WORKDIR src
 
 
+COPY src/ .
 
-COPY hello.lisp .
-
-CMD ["sbcl", "--script", "hello.lisp"]
+CMD ["./main"]
